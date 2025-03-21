@@ -1,23 +1,23 @@
 @import "tailwindcss";
 
-::-webkit-scrollbar{
-    display: none;
+::-webkit-scrollbar {
+  display: none;
 }
 
 @font-face {
-  font-family: 'light';
-  src: url('/fonts/Merchant-ExtraLight.ttf') format('truetype');
+  font-family: "light";
+  src: url("/fonts/Merchant-ExtraLight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'bold';
-  src: url('/fonts/ppneuemontreal-bold.ttf') format('opentype');
+  font-family: "bold";
+  src: url("/fonts/ppneuemontreal-bold.ttf") format("opentype");
   font-weight: bold;
   font-style: normal;
 }
 
-.line{
+.line {
   font-family: light;
 }

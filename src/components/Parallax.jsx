@@ -47,18 +47,20 @@ const Parallax = ({ urls, box = false }) => {
       />
       {box && (
         <div className="absolute -translate-y-1/2 top-1/2 -translate-x-1/2 left-1/2 p-12 bg-[#161310] text-white flex flex-col justify-between items-center h-[90vh] text-center font-[light]">
-        <div className="max-w-lg text-[2vw] leading-[1.2]">
-            I'm always excited to discuss new projects and collaboration opportunities. Feel free to reach out and let's capture some beautiful moments together.
-        </div>
-        <div className="my-10">
-        <img ref={flower} src="./flower.svg" alt="" />
-        </div>
-        <div className="text-[1vw] uppercase leading-[1] tracking-tight space-y-2">
+          <div className="max-w-lg text-[2vw] leading-[1.2]">
+            I'm always excited to discuss new projects and collaboration
+            opportunities. Feel free to reach out and let's capture some
+            beautiful moments together.
+          </div>
+          <div className="my-10">
+            <img ref={flower} src="./flower.svg" alt="" />
+          </div>
+          <div className="text-[1vw] uppercase leading-[1] tracking-tight space-y-2">
             <p>PHOTOVOGUE PROFILE</p>
             <p>INSTAGRAM: @CRIS______GOMEZ</p>
             <p>HEY@CRISTINAGOMEZRUIZ.COM</p>
+          </div>
         </div>
-    </div>
       )}
     </section>
   );
