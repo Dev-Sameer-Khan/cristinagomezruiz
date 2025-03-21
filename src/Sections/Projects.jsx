@@ -32,7 +32,7 @@ const Projects = () => {
         <h1>/</h1>
         <h1 className="text-[#787878]">Archives</h1>
       </div>
-      <div className="w-[50%] text-[2vw] font-[light] text-[#787878] text-center">
+      <div className="w-[51%] text-[2vw] font-[light] text-[#787878] text-center">
         {[
           "Alicia Bezares -- ",
           "Cantamarta -- ",

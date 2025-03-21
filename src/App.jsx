@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Hero from "./Sections/Hero";
 import Navbar from "./components/Navbar";
 import About from "./Sections/About";
@@ -6,6 +6,7 @@ import Parallax from "./components/Parallax";
 import Video from "./Sections/Video";
 import Footer from "./components/Footer";
 import Projects from "./Sections/Projects";
+import Loader from "./components/Loader";
 
 const App = () => {
   const urls = {
@@ -15,6 +16,7 @@ const App = () => {
 
   return (
     <main className="bg-[#161310] text-[#ECEBEB] select-none relative">
+      <Loader />
       <Navbar />
       <Hero />
       <About />
@@ -26,5 +28,4 @@ const App = () => {
     </main>
   );
 };
-
 export default App;
