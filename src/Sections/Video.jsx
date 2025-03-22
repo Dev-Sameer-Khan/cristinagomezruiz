@@ -6,7 +6,7 @@ const Video = () => {
       <div className="video-1 w-[35%] translate-y-[15%]">
         <video
           className="w-full h-full object-cover"
-          // src="https://videos.pexels.com/video-files/2795403/2795403-sd_360_640_25fps.mp4"
+          src="https://videos.pexels.com/video-files/2795403/2795403-sd_360_640_25fps.mp4"
           loop
           muted
           autoPlay
@@ -15,7 +15,7 @@ const Video = () => {
       <div className="video-1 w-[35%] translate-y-[15%]">
         <video
           className="w-full h-full object-cover"
-          // src="https://videos.pexels.com/video-files/31187306/13323002_360_640_60fps.mp4"
+          src="https://videos.pexels.com/video-files/31187306/13323002_360_640_60fps.mp4"
           loop
           muted
           autoPlay
@@ -24,7 +24,7 @@ const Video = () => {
       <div className="video-1 w-[35%] translate-y-[15%]">
         <video
           className="w-full h-full object-cover"
-          // src="https://videos.pexels.com/video-files/31176452/13317937_360_640_30fps.mp4"
+          src="https://videos.pexels.com/video-files/31176452/13317937_360_640_30fps.mp4"
           loop
           muted
           autoPlay
